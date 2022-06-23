@@ -1,0 +1,47 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.postcard-header {
+	display: flex;
+}
+h1 {
+	width: 90%;
+	margin: 0px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.Geeks {
+	padding-top: 10px;
+	padding-right: 20px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	width: 170%;
+	padding: 10px;
+	margin: 0px;
+}
+.body-right {
+	color: gray;
+	padding-top: 25px;
+}
+input {
+	border: none;
+	border-bottom: 2px solid gray;
+	padding: 5px;
+}
+.postcard-footer {
+	text-align: center;
+}
